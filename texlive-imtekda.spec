@@ -1,3 +1,9 @@
+# revision 17667
+# category Package
+# catalog-ctan /macros/latex/contrib/imtekda
+# catalog-date 2010-04-03 16:55:02 +0200
+# catalog-license lppl
+# catalog-version 1.7
 Name:		texlive-imtekda
 Version:	1.7
 Release:	1
@@ -51,6 +57,7 @@ typesetting theses and a list of recommended packages.
 #- source
 %doc %{_texmfdistdir}/source/latex/imtekda/IMTEKda.dtx
 %doc %{_texmfdistdir}/source/latex/imtekda/IMTEKda.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ typesetting theses and a list of recommended packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
