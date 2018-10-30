@@ -6,7 +6,7 @@
 # catalog-version 1.7
 Name:		texlive-imtekda
 Version:	1.7
-Release:	11
+Release:	12
 Summary:	IMTEK thesis class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/imtekda
