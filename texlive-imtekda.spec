@@ -3,7 +3,7 @@ Version:	17667
 Release:	2
 Summary:	IMTEK thesis class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/imtekda
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/imtekda
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imtekda.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imtekda.doc.r%{version}.tar.xz
